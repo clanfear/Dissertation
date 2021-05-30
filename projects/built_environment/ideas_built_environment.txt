@@ -1,0 +1,131 @@
+TO DO
+  (1) Look at how fast BE actually changes--focus on things I am measuring
+    Chicago: Compare SSO from PHDCN to CCAHS; change in terms of own metrics
+      This would let me model how different things predict those changes, though sample size may be small
+      Can only do NC level due to IDs, between 0.46 (land use) and 0.71 (bars/liquor) correlation. Similar to CE.
+    Chicago: Need some other panel-ish data
+    Seattle: Weisburd data?
+      At segment level, R  .68 (vacants), 0.87 mixed, and 0.98 (street lights) depending on year gap
+  (2) Interactions: CE but also disadvantage. Disadvantage suggests offender production side, possibly targets while CE suggest guardianship side.
+  (3) More BE indicators? Why not roll in a bunch of other shit
+
+
+FOR DRAFT
+  Gun and violent crime in high CE neighborhoods is more concentrated where there are abandoned buildings. Evenly distributed in low CE neighborhoods.
+
+FROM KATE
+  Keeping up with how theories use terms and concepts; hard to keep up with what is interchangeable.
+
+DONE
+Fix tract crosswalk for CCAHS using official crosswalk [DONE]
+  Losing tract 810400, block 813 because in 1990 it is 813A and 813B
+OOPS: Should include concentrated affluence. This might change all model results. Time to redo it all.
+     DONE
+Consider Imai mediation models; look at Imai (2011) DAGs
+   Looks like mediation supports lme4; can probably convert everything from SEM to a series of hierarchical models with mediation tests.
+     Advantage here is that I can use dharma on everything for diagnostics
+   Looking deeper it is more problematic, particularly given the multiple mediators. Probably better to focus on proximate relationships.
+Go back and due proper CE measurement models
+   For longest time could not figure out why all this shit didn't match up. Turns out the CCAHS estimates are not adjusted for respondent characteristics.
+   Now I just need to figure out why my estimates differ between the HLM and SEM models
+     Estimates are quite close, will prob use HLM ones to mimic past work.
+  Makes sure RESSTAB is not in models with the three factors for antecedents. Stability is already in there loaded on affluence and disadvantage
+  Compare/contrast 1995 to 2001 results. May suggest issue is weakness in 2001.
+
+Skogan (1990:1-2): Citizens in mixed-race neighborhood protesting liquor store and boarding house after complaints to city and police failed.
+
+Can I get at permeability / free movement? Lot of old and recent work suggests mobility is important.
+  e.g. Greenberg et al (1982) on border zones; MacDonald book on cul-de-sacs
+  At very least need to consider streets--maybe speed limits too
+
+Kapsis (1978): Anomie as related to sociopolitical linkages of community to the city.
+  "The implication of Kapsis's (1978) work is that members of economically and racially isolated communities, that is, those who were least able to exercise political influence to obtain community services, were more likely than others to report high normlessness."
+
+Fraser et al (2003): Suggests residents of poor neighborhoods have no influence over larger processes, or even processes in own neighborhood, while those in advantaged neighborhoods may have considerable influence over distant locations.
+
+Measurement Models:
+  Center all individual covariates so intercept is at sample mean
+
+Interact CE with built environment stuff
+  Ex: Bars in low-CE places may be more criminogenic
+
+Capacity of bars, restaurants, etc.
+  I can get capacities and locations from my restaurant inspection data!
+  Might consider hours of operation?
+
+Chicago has dry precincts--"Liquor Moratorium Districts" in open data
+
+Consider pulling routine activities stuff from both surveys--isn't explicitly BE but is RAT
+
+Maybe do time of day panels? Get at rhythm?
+
+I don't have a CE measure in 1990--social capital is not predicting lower crime
+  Well, it predicts victimization.
+
+Use 1995 CE -> 2001 BE, but 2001 CE / BE -> Crime
+  Mediator for lag of CE
+
+Scheurman & Kobrin (1986) Crime -> land use shifts
+
+Buirsik (1989): Political decisionmaking about public housing concentration may accelerate instability
+
+What about looking at teens and vacants as mediators of soccap / causes of victimization?
+
+Percentage of streets of different type by length
+  e.g. are high CE neighborhoods mainly residential streets and residential streets have low crime opportunity?
+
+"Pridemore & Grubesic (2012a) found that the effect of alcohol outlet density on assault incidents across Cincinnati block groups varied according to land use in the area. In this regard, they reported that the positive association between alcohol outlet density and assaults was stronger in block groups with more public housing and heavy industry and weaker in block groups with a higher proportion of single-family residences." from Wilcox & Cullen
+
+Bolland & Moehle McCallum (2002) Neighboring and Community Mobilization in High-Poverty Inner-City Neighborhoods
+  Possibility for political mobilization of the poor.
+
+CHICAGO
+  Chicago data is a proper two waves of CE--just need to add BE data
+  CCAHS: Interesting measures on if you've had contact with local community officials. Includes police, reps, community dev. org director.
+    Also has measures for participation in specific civic actions (e.g. V552)
+  CCAHS has "how much" questions for vacants, litter, public drinking, unsupervised kids, and graffiti in addition to how much is it a problem in a couple cases.
+  CCAHS has vicarious victimization measures (e.g. V547 for mugging)
+  CCAHS has various levels of BE measures from SSO:
+    Bar/cocktail lounge
+    Liquor store
+    Abandoned (not usable)
+    Vacant but usable
+    Vacant building
+    Parking lots
+    Land use
+    Types of housing (e.g. high-rise, detached, duplex)
+    Public housing, maybe? Public Apartments is type.
+    Check cashing
+    Banks
+    Rec centers
+    Pawn shops
+    Drug store
+    Grocers
+    Convenience store
+    Supermarket
+    Fast-food
+    Heavy street traffic
+    "Commercial destination"
+  CCAHS has interesting "reaction to SSO viewer" measures, like ignored, regarded with suspicion, friendly, queried about purpose, no one around
+  PHDCN-CS indiv has actions taken to deal with problems; ability to tell strangers;
+  PDHCN-CS has non-SSO BE measures:
+    Alcohol/drug treatment
+    Mental health center
+    Youth center
+  CPD data
+    Locations includes abandoned buildings, bars, convenience stores, on street!
+  Sandler Data
+    Demolitions are all in between PHDCN and CCAHS, can do CE -> demos -> crime
+
+TO DO:
+  SEATTLE
+    Check victimization measures for fuckery [Vict seems fine]
+    Add time-invariant stuff from Weisburd data like street pop [Done]
+    Figure out street light relationship
+      Probably just endogeneity--you put lights where risk is high
+      What causes risk?
+    Weisburd stuff may not pan out that usefully
+      Move to more recent, what do I have?
+    Use city street grid to map point data on to more detailed street data (not just arterials vs. other)
+  CHICAGO
+    Pull BE stuff from CS-indiv, SSO, CCAHS, aggregate to NC, see if it pans out at that level

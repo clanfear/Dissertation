@@ -34,3 +34,25 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+# Ignore non-code things
+/comprehensive_exam/
+/docs/
+/img/
+/lit/
+/notes/
+/presentations/
+/prospectus/
+/projects/disorder/
+/projects/endogeneity_problem/
+/projects/exploratory/
+/projects/Miethe_SNCS/
+/projects/PHDCN_CCAHS/
+/projects/theory/
+/projects/exploratory/
+data/
+docs/
+notes/
+deprecated/
+old/
+*.RData

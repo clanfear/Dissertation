@@ -1,0 +1,47 @@
+TO DO:
+   (1) Get NC-level reliability to test if low PE translates to more accurate CE estimates.
+   (2) Nuisance complaints? Might have these in Chicago data, def in Seattle data.
+   (3) Check what can be done in Seattle data; no police or CE stuff in 1990.
+      Can't do a ton here
+
+Consider using the fear of calling police and ability to recognize strangers measures in CCAHS
+
+Kirk & Matsuda (2011): Legal cynicism may cut off police as perceived route for problem solving: "constrained options"
+  Need not resort straight to crime but may use other legitimate routes
+  People may see little benefit to intervening and may involve risks
+  All interventions have risk! This is same framework as informal control.
+  "We argue that collective efficacy is the mechanism that explains the legal cynicism– arrest association because cynicism toward the law deters individuals from engaging in collective actions designed to control crime. For instance, neighborhood residents might find little reason to risk their lives to thwart the crimes of gang members and drug dealers if they perceive that they will receive little help and support from the police. Potential risks to intervening to prevent crime exist, and neighborhood residents are more likely to take those risks if they perceive that they have the support of a responsive police force."
+
+Herbert (2005) The Trapdoor of Community
+  Results from his book--residents don't envision robust political role for community; see it as offloading of responsibility.
+
+Coleman (2020) looks at this individually, check notes there.
+
+Missing data
+  Race, age, gender have missings. Fix to get back observations. S&R 1997 used 7729 observations due to missingness
+
+From Sampson & Bartusch 1998: "stronger. The implication of Kapsis's (1978) work is that members of economically and racially isolated communities, that is, those who were least able to exercise political influence to obtain community services, were more likely than others to report high normlessness."
+
+Chicago data has most police measures in both.
+CCAHS has afraid to call police measure (V485)
+  Model where CE and this play a role?
+
+A few fear of crime measures.
+
+NCVS data on reporting crimes at MSA level? Wonder if over timespans I have? Or smaller units?
+
+See Rinehart Kochel & Gau article for bunch of lit.
+
+CCAHS:  Interesting measures on if you've had contact with local community officials. Includes police, reps, community dev. org director.
+PHDCN-CS: How much of problem is excessive police force; police not patrolling or responding
+  These in addition to other police questions
+  Change in level of police protection over last 5 years
+
+Wilson & Kelling: "The essence of the police role in maintaining order is to reinforce the informal control mechanisms of the community itself.
+The police cannot, without committing extraordinary resources, provide a substitute for that informal control. On the other
+hand, to reinforce those natural forces the police must accommodate them. And therein lies the problem."
+
+Systematic review finds community-oriented policing may have no direct effect on crime or fear of crime. Authors suggest it may be effective at building a foundation of satisfaction and trust with police that can foster increases in community involvement and cooperation with police--this implies need longer evaluations that look at mediated outcomes. (Gill et al. 2014)
+
+Problem-oriented policing has direct negative impacts on crime, but doesn't do much for police legitimacy, fear of crime, or collective efficacy. (Eck et al. 2020).
+  Problem oriented policing (Goldstein 1979) represents a shift to ends over means for policing: Diagnose root causes of a problem and address it. If needed, collaborate with other bodies or use unconventional approaches.

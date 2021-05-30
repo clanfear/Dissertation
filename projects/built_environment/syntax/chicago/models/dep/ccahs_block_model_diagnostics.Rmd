@@ -1,0 +1,45 @@
+---
+title: "CCAHS Block Model Diagnostics"
+author: "Chuck Lanfear"
+date: "11/29/2020"
+output: html_document
+---
+
+```{r setup}
+library(tidyverse)
+library(lme4)
+library(lavaan)
+library(broom.mixed)
+library(DHARMa)
+load("../../../output/chicago/models/all_block_models.RData")
+```
+
+
+
+This document depicts model diagnostics for the negative binomial mixed models of block-level crime counts. These model diagnostics are conducted using DHARMa. This requires first generating simulated residuals:
+
+```{r}
+glmer_residuals <- map(glmer_models, ~ simulateResiduals(., n = 1000))
+```
+
+Then I walk across the different models. The main plots of interest are the QQ plots of the binned residuals which generally exhibit exceptional fit. The predicted to residual plots show some evidence of nonlinearity in the residuals in some cases. This can generally be addressed using a quadratic transformation of disadvantage. Using this transformation has no impact on the focal predictors and is somewhat arbitrary, though is evidence for quadratic disadvantage effects in other works. Since it has no impact on my analyses, I use the default (linear) specification.
+
+# Linear Disadvantage
+
+These are the diagnostics with an untransformed (linear) disadvantage term.
+
+```{r}
+walk(seq_along(glmer_residuals), ~ plot(glmer_residuals[[.]], 
+                                        main = names(glmer_models)[.]))
+```
+
+# Polynomial Disadvantage
+
+For reference, here are the diagnostics while using an orthogonal quadratic transformation of disadvantage.
+
+```{r}
+glmer_polydisadv_residuals <- map(glmer_models_polydisadv, ~ simulateResiduals(., n = 1000))
+walk(seq_along(glmer_polydisadv_residuals), ~ plot(glmer_polydisadv_residuals[[.]], 
+                                        main = names(glmer_models_polydisadv)[.]))
+```
+

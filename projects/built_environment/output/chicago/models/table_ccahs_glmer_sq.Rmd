@@ -1,0 +1,19 @@
+---
+title: "table_ccahs_glmer_sq"
+author: "Chuck Lanfear"
+date: "11/19/2020"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(gt)
+library(modelsummary)
+library(broom.mixed)
+load("ccahs_glmer_1_2.RData")
+```
+
+```{r, echo=FALSE}
+table_ccahs_glmer_sq %>% gtsave("table_ccahs_glmer_sq.rtf")
+```
+
