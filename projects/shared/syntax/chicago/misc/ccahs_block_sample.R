@@ -1,4 +1,12 @@
 # Incomplete script for getting quick and dirty map of sampled blocks in CCAHS
+library(tidyverse)
+library(sf)
+library(ragg)
+ragg_png <- function(...) ragg::agg_png(..., res = 300, units = "in")
+
+load("./data/chicago/derived/nc_boundaries.RData")
+load("./data/chicago/derived/crosswalks/complete_crosswalk.RData")
+load("./data/chicago/derived/blocks_1990_interpolated_sum.RData")
 
 all_blocks <- complete_crosswalk %>% 
   inner_join(blocks_1990_interpolated_sum %>% 
@@ -24,7 +32,10 @@ cook_water <- tigris::area_water("IL", "Cook", class = "sf") %>% st_transform(st
 all_blocks_nowater <- all_blocks_union %>% 
   st_erase(cook_water)
 
-ggplot() + 
+boundary_map <- ggplot() + 
   geom_sf(data = all_blocks_nowater) + 
   geom_sf(data = selected_blocks, color = NA, fill = "black") + 
+  geom_sf(data = nc_boundaries, color = "black", fill = NA, size = 0.1) +
   theme_void()
+
+ggsave("../built_environment/docs/img/boundary_map.png",  boundary_map, width = 6, units = "in", device = ragg_png)

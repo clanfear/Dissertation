@@ -41,6 +41,8 @@ blocks_1990_interpolated_sum <- aw_interpolate(blocks_1990,
                                                extensive = "population", 
                                                weight = "sum", output = "sf")
 
+save(blocks_1990_interpolated_sum, file = "./data/chicago/derived/blocks_1990_interpolated_sum.RData")
+
 block_pop_estimates_2000 <- complete_crosswalk %>% 
   inner_join(blocks_1990_interpolated_sum %>% 
                mutate(area = as.numeric(units::set_units(st_area(geometry), "km^2")),
