@@ -4,7 +4,7 @@ source("../shared/syntax/project_functions.R")
 load("./data/chicago/derived/nc_analytical_wide.RData")
 
 crosslag_data <- nc_analytical_wide %>% 
-  select(matches("^(PE|CE|LOG_HOM_RATE|VICT|FAC|TE|AT|KT)")) %>% 
+  select(matches("^(PE|CE|LOG_HOM_RATE|VICT|FAC|TE|AT|KT|DENSITY)")) %>% 
   mutate(across(everything(), ~ standardize(.)))
 
 sem_hom_current_formula <- "
