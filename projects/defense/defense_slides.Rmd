@@ -27,17 +27,15 @@ output:
 
 This dissertation is about the different ways neighborhoods control crime.
 
-In it I propose an integrative theory that links collective efficacy to opportunity-based explanations for crime using concepts from routine activities
+In it I propose an integrative theory that links macro social structural explanations for crime, in particular collective efficacy, to micro opportunity-based explanations.
 
-CE focuses on informal control--guardians--but opportunity theories tell us other things matter.
+CE focuses on informal control--guardianship in routine activities--but opportunity theories tell us other things matter.
  
-The built environment matters. Policing matters.
-  
-Opportunity lit tells us potential offenders sensitive to many aspects of opportunity.
+Opportunity literature tells us potential offenders sensitive to many aspects of opportunity. The built environment matters. Policing matters.
 
-Lit on crime control, communities, politics tell us non-offenders are sensitive too, and work to reduce opportunities.
+Lit on crime prevention tell us non-offenders are sensitive to opportunity too, and they sometimes work to reduce opportunities.
 
-Here I propose opportunity-based mechanisms for social structural theories of crime.
+This dissertation proposes situational opportunity-based mechanisms for social structural theories of crime.
 
 Theoretical chapter takes a deep dive at this idea, while empirical chapters examine two components.
 
@@ -56,11 +54,11 @@ class: inverse
 
 ???
 
-Bit of a struggle; idea for chapter only appeared around prospectus defense; title isn't even set
+Bit of a struggle; idea for chapter only appeared around prospectus defense
 
 Ross suggested writing a chapter laying out the theories clearly, then articulating similarities and differences; that's the first half.
 
-In defense, we talked about important of meaning and perception to my framework.
+In prospectus defense, we talked about importance of meaning and perception to my framework.
 
 Second half goes deep into this--lot of uncharted territory for me; will be working with Ross on this going forward
 
@@ -75,7 +73,7 @@ Second half goes deep into this--lot of uncharted territory for me; will be work
 
 A crime is a particular outcome of an opportunity.
 
-Opportunities have a real objective component--but people act on perceptions not objective. If these things diverge, a theory of perception is important
+Opportunities have a real objective component--but people act on perceptions. If these things diverge, a theory of perception is important
 
 --
 
@@ -99,7 +97,7 @@ In situations, roles and expectations become important, but things also develop 
 
 ???
 
-Crime is an outcome of situations, so macro factors that impact crime must operate through situations--a macro-micro link.
+If crime is an outcome of situations, macro factors that impact crime must operate through situations--a macro-micro link.
 
 How exactly? Through people's perceptions, norms, and expectations, which determine how they act in situations and also what situations they get into in the first place.
 
@@ -115,12 +113,12 @@ There's also a micro-macro relationship. Macro structures related to crime emerg
 
 This includes things like reputations and norms; or sparks for collective action. This provides some mechanisms for neighborhood change, both social and physical.
 
-Still working on these things.
+Still working on these things; would love to talk more about it.
 
 ---
 # Contribution
 
-* Empirical relevance
+* Empirical
 
    * Clarify assumptions made in macro-models
       * Where will they likely break down?
@@ -133,13 +131,15 @@ Still working on these things.
 
 --
 
-* Theoretical relevance
+* Theoretical
 
   * Micro-macro mechanisms for neighborhood theories
   * Connects many areas of crime literature
      * Linguistically and conceptually
 
 ???
+
+Code of street, collective efficacy, broken windows, environmental crim, situational explanations by Short & Strodt, Goffman, Luckenbill
 
 Big contribution for me was expanding my brain a bit--going into new and difficult territory
 
@@ -262,7 +262,7 @@ knitr::include_graphics("img/boundary_map.png")
 
 --
 
-* Crime
+* Predicting Crime
 
   * Abandoned buildings predict violence
   * Commercial props predicts property crime
@@ -270,7 +270,7 @@ knitr::include_graphics("img/boundary_map.png")
 
 --
 
-* Built environment
+* Predicting Built Environment Features
 
   * Collective efficacy predicts fewer abandoned buildings and commercial properties
   * Built environment doesn't predict collective efficacy
@@ -285,6 +285,10 @@ knitr::include_graphics("img/boundary_map.png")
    * Passive effect reduces need for intervention
    * Long-lasting effects
    * Other benefits than just crime control
+
+???
+
+Difference between paying rent all the time and buying outright
 
 --
 
@@ -309,7 +313,7 @@ class: inverse
 ---
 # Overview
 
-Question: *How does police effectiveness and legitimacy relate to collective efficacy?*
+Question: *How do police effectiveness and legitimacy relate to collective efficacy?*
 
 --
 
@@ -359,13 +363,14 @@ Threw the damned kitchen sink at it; squeeze blood from stone
 * Consistent evidence the police efficacy is descended from collective efficacy
 
    * Some evidence for "faster" effect from IV model
+   * No effects of police efficacy on collective efficacy *or even future police efficacy*
    
 --
 
 * Weak evidence for moderation
 
-   * Expected direction but underpowered test
-   * Mixed evidence for effects of collective efficacy and police efficacy on crime in general
+   * Mixed direction, underpowered test
+   * Weak effects of collective efficacy and police efficacy on crime in general
 
 ---
 # Implications
@@ -397,8 +402,6 @@ class: inverse
 
 *Questions for me?*
 
-<br>
-
 *Questions for you!*
 
 Empirical Chapters:
@@ -407,9 +410,12 @@ Empirical Chapters:
 * Threats to research design / conclusions?
 * Where should they go?
 * New questions that emerge?
+* What do we think about weak 2003 effects?
 
 Theory Chapter:
 
 * What else should I (we) address?
 * Wider applications or implications?
+
+Also: What about original framework/diagram?
 
