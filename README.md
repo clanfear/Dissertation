@@ -1,6 +1,6 @@
 # Dissertation
  
-This repository contains replication files for my PhD dissertation:
+This repository contains replication files for my [PhD dissertation (PDF here)](https://github.com/clanfear/Dissertation/blob/main/projects/diss_doc/index/_book/thesis.pdf):
 
 > Lanfear, Charles C. 2021. "Integrating Collective Efficacy and Criminal Opportunity: Disorder, the Built Environment, and Policing." PhD Dissertation, Department of Sociology, University of Washington.
 
