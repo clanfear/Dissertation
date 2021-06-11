@@ -1,0 +1,74 @@
+---
+title: | 
+    | Integrating Collective Efficacy and Criminal Opportunity:
+    | Disorder, the Built Environment, and Policing
+author: "Charles C. Lanfear"
+year: "2021"
+program: "Department of Sociology"
+chair: "Ross L. Matsueda"
+chairtitle: "Professor"
+signature1: "Kyle D. Crowder"
+signature2: "Jerald R. Herting"
+signature3: ""
+abstract: |
+  "Here is my abstract"
+acknowledgments: |
+ \noindent This dissertation the result of the support of many mentors, colleagues, and friends. Here, I would like to give thanks to a particular few. To my committee members Kyle Crowder and Jerry Herting for their detailed feedback and faith I could put this together in time. To Aimée Dechter for her kindness, unwavering support, and relaying of messages. Finally, to my advisor Ross Matsueda for his enthusiastic support for the dissertation, including substantial contributions to my first chapter, and, most importantly, for generously investing in me as a scholar from the moment I arrived at the University of Washington.
+dedication: |
+  For my mom and dad
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+output: 
+  huskydown::thesis_pdf: 
+    latex_engine: xelatex
+#  huskydown::thesis_gitbook: default
+#  huskydown::thesis_word: default
+#  huskydown::thesis_epub: default
+bibliography: references.bib
+csl: csl/american-sociological-association.csl
+lot: true
+lof: true
+# space_between_paragraphs: true
+# Delete the # at the beginning of the previous line if you'd like
+# to have a blank new line between each paragraph
+#header-includes:
+#- \usepackage{tikz}
+---
+
+<!--
+If you receive a duplicate label error after knitting, make sure to delete the index.Rmd file and then knit again.
+-->
+
+```{r include_packages, include = FALSE}
+library(huskydown, quietly = TRUE, warn.conflicts = FALSE)
+library(tidyverse)
+library(piecewiseSEM)
+library(flextable)
+library(ftExtra)
+```
+
+<!-- The {.unnumbered} option here means that the introduction will be "Chapter 0." You can also use {-} for no numbers on chapters. -->
+
+# Introduction {.unnumbered}
+
+This dissertation proposes an integrative theory that links social structural explanations of neighborhood crime—collective efficacy [@sampsonGreatAmericanCity2012] and broken windows [@wilsonBrokenWindows1982]—to opportunity-based situational explanations for crime. I do this using the language of routine activities theory, which describes predatory crime as the result of the convergence in time and space of individuals occupying three abstract roles: likely offenders, capable guardians, and suitable targets [@cohenSocialChangeCrime1979]. My framework explains how the social structural characteristics and physical environment of neighborhoods are related to the distribution of actors taking these roles in space and time. I also consider how individuals and groups work to alter these distributions and their determinants, and how the resolutions of situations may lead to changes in the social structure and physical environment of neighborhoods.
+
+I develop this multilevel theoretical framework of neighborhood social structure and situational crime in my first chapter, "A Situational Explanation of Neighborhood Crime." I then apply elements of this framework to examine two pathways of neighborhood crime control in my empirical chapters. The first focuses on how neighborhoods may alter the built environment to constrain criminal opportunities. The second focuses on how neighborhood collective efficacy relates to the perceived effectiveness and legitimacy of police, and in turn, how both relate to rates of crime.
+
+## A Situational Explanation of Neighborhood Crime
+
+The first chapter of this dissertation argues that the neighborhood-level theories of collective efficacy and broken windows may be unified into a multilevel theory of situations using Cohen and Felson’s [-@cohenSocialChangeCrime1979] routine activities theory and a pragmatist model of roles and perception. I first describe collective efficacy and broken windows theories in terms of their causal mechanisms. While both theories operate at the macro-level, they rely on individual perceptions as mediating micro-level mechanisms. I then introduce routine activities theory, which describes crime as the result of convergences of individuals fitting abstract crime-relevant roles. These convergences are a particular configuration of a situation. Using the pragmatist symbolic interactionist theory of Mead (1934), I elaborate on the relationship between roles, perception, and situations of crime. With the situation as a foundation, I construct a multi-level theory that integrates collective efficacy, broken windows, and criminal opportunity.
+
+This theory focuses on crime as a situational phenomenon, resulting from interactions between actors and objects in places. The meanings actors attribute to situations—including to themselves vis-à-vis the situation—determine how they behave in those situations. The initial meanings of situations are partly the result of past experiences of actors and partly the result of shared meanings to which the actors have been exposed. These meanings are also jointly constructed by actors within the situation via communication, giving situations emergent properties. The manner in which a situation resolves shapes how the involved actors interpret similar situations in the future. These meanings may in turn be communicated to others, contributing to shared meanings within collectivities like neighborhoods. In this way, macro-level shared meanings both impact behavior in situations, partly determining how they are resolved, and are created and propagated by situations.
+
+## Collective Efficacy and the Built Environment
+
+The second chapter of this dissertation proposes that collective efficacy empowers neighborhoods to remove and prevent built environment features that generate criminal opportunities. Just as crime is concentrated in particular neighborhoods, within neighborhoods crime is concentrated in particular criminogenic locations [@weisburdCriminologyPlaceStreet2012]. Research suggests criminogenic locations are largely determined by characteristics of the built environment [@st.jeanPocketsCrimeBroken2007; @wilcoxSituationalOpportunityTheories2018]. Neighborhoods may seek to control crime by removing criminogenic locations and preventing development of properties that are perceived to present criminal opportunities.
+
+This chapter empirically tests the relationship between collective efficacy and the distribution of potentially criminogenic features of the built environment, and the associations between those features and incidents of police-reported crime. I accomplish this using a multilevel longitudinal research design using data from Chicago on block-level built environment features and neighborhood-level collective efficacy. My findings suggest neighborhoods with high collective efficacy maintain low rates of crime in part by limiting the presence of built environment features that promote criminal opportunities, in particular abandoned buildings.
+
+## Collective Efficacy and Formal Social Control
+
+The third and final chapter of the dissertation interrogates the role of resident perceptions of police effectiveness and legitimacy in collective efficacy theory. Some authors describe collective efficacy as in part the result of perceptions of legitimate, effective, and responsive policing—police efficacy. When police efficacy is high, it promotes collective efficacy resulting in residents being more likely to engage in acts of informal social control [@drakulichRolePerceptionsPolice2013; @silverSourcesInformalSocial2004]. Sampson [-@sampsonGreatAmericanCity2012; @sampsonNeighborhoodsViolentCrime1997a], however, describes collective efficacy as the ultimate source for all forms of neighborhood social control, including both informal control actions by residents and calls to police for formal control actions. This suggests efficacious policing is promoted by collective efficacy rather than vice versa.
+
+This chapter attempts to adjudicate between these two causal orders by answering the question, does efficacious policing foster collective efficacy, or does efficacious policing depend on the collective efficacy of the community? Based on my theoretical framework, I also examine the possibility that collective efficacy and police efficacy moderate one-another, exhibiting a multiplicative protective effect on crime. I test these propositions using data from 1995 and 2003 in an array of panel models that make different assumptions about causal relationships, unobserved variables, and temporal and spatial dependence. My primary finding is that police efficacy appears to be descended from collective efficacy, rather than vice versa. I propose this occurs because effective and legitimate policing is reliant on residents’ shared norms and willingness to intervene against crime and deviance. I also find weak evidence for the moderation hypothesis. Lastly, effects of both collective efficacy and police efficacy on crime appear modest, and stronger in 1995 than in 2003.

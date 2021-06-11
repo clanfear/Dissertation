@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /tex-archive</title>
+ </head>
+ <body>
+<h1>Index of /tex-archive</h1>
+  <table>
+   <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr>
+   <tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]"></td><td><a href="/">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="CTAN.sites">CTAN.sites</a>             </td><td align="right">2021-06-02 18:21  </td><td align="right"> 16K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="FILES.byname">FILES.byname</a>           </td><td align="right">2021-06-02 18:20  </td><td align="right"> 21M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="FILES.byname.gz">FILES.byname.gz</a>        </td><td align="right">2021-06-02 18:20  </td><td align="right">2.2M</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/unknown.gif" alt="[   ]"></td><td><a href="FILES.last07days">FILES.last07days</a>       </td><td align="right">2021-06-02 18:20  </td><td align="right">156K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="biblio/">biblio/</a>                </td><td align="right">2020-12-31 10:01  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="bibliography/">bibliography/</a>          </td><td align="right">2020-12-31 10:01  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="digests/">digests/</a>               </td><td align="right">2021-05-26 13:28  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="documentation/">documentation/</a>         </td><td align="right">2021-06-03 02:10  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="dviware/">dviware/</a>               </td><td align="right">2021-05-15 13:08  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="fonts/">fonts/</a>                 </td><td align="right">2021-06-03 01:48  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="graphics/">graphics/</a>              </td><td align="right">2021-06-03 01:52  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="help/">help/</a>                  </td><td align="right">2021-05-06 23:12  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="index.html">index.html</a>             </td><td align="right">2020-03-31 08:01  </td><td align="right"> 10K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="indexing/">indexing/</a>              </td><td align="right">2021-04-17 18:42  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="info/">info/</a>                  </td><td align="right">2021-06-03 02:10  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="install/">install/</a>               </td><td align="right">2021-02-04 06:35  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="language/">language/</a>              </td><td align="right">2021-05-12 02:19  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="languages/">languages/</a>             </td><td align="right">2021-05-12 02:19  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="macros/">macros/</a>                </td><td align="right">2021-06-03 02:41  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="obsolete/">obsolete/</a>              </td><td align="right">2018-06-29 18:21  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="support/">support/</a>               </td><td align="right">2021-06-03 05:49  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="systems/">systems/</a>               </td><td align="right">2020-04-24 11:07  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/compressed.gif" alt="[   ]"></td><td><a href="tds.zip">tds.zip</a>                </td><td align="right">2019-05-28 23:28  </td><td align="right">297K</td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="tds/">tds/</a>                   </td><td align="right">2019-05-28 23:28  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/text.gif" alt="[TXT]"></td><td><a href="timestamp">timestamp</a>              </td><td align="right">2021-06-03 06:02  </td><td align="right">186 </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="usergrps/">usergrps/</a>              </td><td align="right">2021-04-16 04:53  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="web/">web/</a>                   </td><td align="right">2021-03-17 10:26  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+   <tr><th colspan="5"><hr></th></tr>
+</table>
+</body></html>
