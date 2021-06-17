@@ -11,9 +11,10 @@ signature1: "Kyle D. Crowder"
 signature2: "Jerald R. Herting"
 signature3: ""
 abstract: |
-  "Here is my abstract"
+ This dissertation proposes an integrative theory that links social structural explanations of neighborhood crime to opportunity-based situational explanations for crime. The first chapter of this dissertation argues that the neighborhood-level theories of collective efficacy and broken windows may be unified into a multilevel theory of situations using Cohen and Felson’s (1979) routine activities theory and a pragmatist model of roles and perception. I discuss empirical implications of this integrated theory. The second chapter proposes that collective efficacy inhibits crime in part by permitting neighborhoods to remove and prevent built environment features that generate criminal opportunities. I find evidence collective efficacy is negatively related to the presence of abandoned buildings and mixed land use which, in turn, promote crime. The third chapter interrogates the role of police efficacy---resident perceptions of police effectiveness and legitimacy---in collective efficacy theory. In contrary to established research in this area, I find evidence that collective efficacy causally precedes police efficacy. In the conclusion I discuss implications for future research and advocate for situating collective efficacy in a multi-level crime, opportunity, and political economy framework.
+ 
 acknowledgments: |
- \noindent This dissertation the result of the support of many mentors, colleagues, and friends. Here, I would like to give thanks to a particular few. To my committee members Kyle Crowder and Jerry Herting for their detailed feedback and faith I could put this together in time. To Aimée Dechter for her kindness, unwavering support, and relaying of messages. Finally, to my advisor Ross Matsueda for his enthusiastic support for the dissertation, including substantial contributions to my first chapter, and, most importantly, for generously investing in me as a scholar from the moment I arrived at the University of Washington.
+ \noindent This dissertation the result of the support of many mentors, colleagues, and friends. Here, I would like to give thanks to a particular few. To my committee members Kyle Crowder and Jerry Herting for their detailed feedback and faith I could put this together in time. To Aimée Dechter for her kindness and unwavering support. Finally, to my advisor Ross Matsueda for his enthusiastic support for the dissertation, including substantial contributions to my first chapter, and, most importantly, for generously investing in me as a scholar from the moment I arrived at the University of Washington.
 dedication: |
   For my mom and dad
 knit: "bookdown::render_book"
@@ -24,7 +25,7 @@ output:
 #  huskydown::thesis_gitbook: default
 #  huskydown::thesis_word: default
 #  huskydown::thesis_epub: default
-bibliography: references.bib
+bibliography: fulllibrary.bib
 csl: csl/american-sociological-association.csl
 lot: true
 lof: true

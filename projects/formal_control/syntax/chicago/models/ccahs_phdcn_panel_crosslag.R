@@ -3,6 +3,8 @@ library(lavaan)
 source("../shared/syntax/project_functions.R")
 load("./data/chicago/derived/nc_analytical_wide.RData")
 
+lm(PE_hlm_2001 ~ PE_hlm_1995  + CE_hlm_1995 , data = nc_analytical_wide) %>% summary()
++ FAC_disadv_2000  + + LOG_HOM_RATE_1995   + FAC_hispimm_2000
 crosslag_data <- nc_analytical_wide %>% 
   select(matches("^(PE|CE|LOG_HOM_RATE|VICT|FAC|TE|AT|KT|DENSITY)")) %>% 
   mutate(across(everything(), ~ standardize(.)))
@@ -20,6 +22,9 @@ sem_hom_current_formula <- "
   PE_hlm_2001 ~~ CE_hlm_2001"
 sem(sem_hom_current_formula, data = crosslag_data, estimator = "ML", 
     missing = "ml.x", se = "boot", test = "Satorra.Bentler") %>% summary(fit.measures=TRUE)
+
+sem(sem_hom_current_formula, data = crosslag_data, estimator = "ML", 
+    missing = "ml.x", se = "boot", test = "Satorra.Bentler") %>% modindices() %>% arrange(desc(mi))
 
 sem_vict_current_formula <- "
   VICT_hlm_2001 ~ PE_hlm_2001 + CE_hlm_2001 + VICT_hlm_1995 + FAC_disadv_2000 + FAC_stability_2000 + FAC_hispimm_2000 
